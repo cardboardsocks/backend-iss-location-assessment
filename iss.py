@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-__author__ = 'Ben McKenzie, Keith Garcia, Tristan Reeves'
+__author__ = 'Ben McKenzie, Keith Garcia, Triston Reeves'
 
 import requests 
 import turtle
@@ -50,6 +50,7 @@ def main():
         if heading > 0.0:
             iss.setheading(heading)
         iss.goto(lon, lat)
+        time.sleep(10)
 
 if __name__ == '__main__':
     main()
